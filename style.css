@@ -239,7 +239,7 @@ a:hover, a:active {
     }
 
     .social-profiles ul {
-        padding: 80px 15px 30px;
+        padding: 10px 0 34px 0;
         margin: 0;
     }
 }
@@ -1148,10 +1148,7 @@ a:hover, a:active {
 }
 
 @media screen and (max-width: 768px) {
-    .ms-profile-container {
-        height: 100vh;
-        width: 100vw;
-    }
+
 }
 
 /*===============================*/
@@ -1194,8 +1191,8 @@ a:hover, a:active {
 
 .ms-card {
     /*height: auto;*/
-    height: 250px;
-    width: 220px;
+    height: 290px;
+    max-width: 220px;
     overflow: hidden;
     background-color: #FFFFFF;
     border-radius: 6px;
