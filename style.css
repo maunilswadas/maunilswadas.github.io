@@ -1191,7 +1191,6 @@ a:hover, a:active {
 
 .ms-card {
     /*height: auto;*/
-    height: 290px;
     max-width: 220px;
     overflow: hidden;
     background-color: #FFFFFF;
@@ -1219,9 +1218,13 @@ a:hover, a:active {
 
 .ms-card h3 {
     margin-top: 45px;
-    margin-bottom: 25px;
-    font-size: 18px;
+    margin-bottom: 30px;
+    font-size: 1em;
     color: #212121;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ms-card-avatar {
